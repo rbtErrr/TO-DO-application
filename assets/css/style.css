@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    transition: all 0.7s;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Arial", sans-serif;
+    background: #DC2424; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #4A569D, #DC2424); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #4A569D, #DC2424); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+#container {
+    width: 360px;
+    margin: 0 auto;
+    background-color: white;
+    margin-top: 50px;
+    color: #2a2b2c;
+}
+
+.clicked {
+    text-decoration: line-through;
+    color: #2a2b2c;
+}
+
+h1 {
+    color: #fff;
+    background-color: #2b81af;
+    padding: 20px;
+    margin: 0;
+    font-weight: normal;
+}
+
+h1 i{
+    float: right;
+}
+
+input {
+    display: block;
+    color: #2a2b2c;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 30px 20px;
+    font-size: 16px;
+    border: 0px solid transparent;
+
+}
+
+::-webkit-input-placeholder {
+    color: lightsalmon;
+    font-weight: bold;
+}
+
+::-moz-placeholder {
+    color: lightsalmon;
+    font-weight: bold;
+}
+
+/* Firefox 19+ */
+:-moz-placeholder {
+    color: lightsalmon;
+    font-weight: bold;
+}
+
+/* Firefox 18- */
+:-ms-input-placeholder {
+    color: lightsalmon;
+    font-weight: bold;
+}
+
+
+ul{
+    width: 100%;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+}
+
+li{
+    display: inline-block;
+    width: 100%;
+    border-bottom: 3px solid #2b81af;
+    box-sizing: border-box;
+    padding: 0;
+    line-height: 37px;
+}
+
+
+ul i{
+    display: inline-block;
+    background-color: red;
+    height: 100%;
+    width: 40px;
+    text-align: center;
+    opacity: 0;
+}
+
+
+li:hover i{
+    padding: 10px 0;
+    margin-right: 10px;
+    opacity: 1;
+}
